@@ -5,8 +5,8 @@ local mod={}
 mod.config={
    grid_key = { {"Ctrl", "Alt", "Cmd"}, "g"},
    -- List of pairs to be passed as arguments to grid.setGrid()
-   -- grid_geometries = { { "4x4" } }
-   grid_geometries = { }
+   grid_geometries = { { "4x4" } }
+   -- grid_geometries = { }
 }
 
 function mod.init()
